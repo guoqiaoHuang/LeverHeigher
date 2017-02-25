@@ -1,0 +1,20 @@
+
+# network
+github "Alamofire/Alamofire" ~> 4.3
+
+# mapper
+github "utahiosmac/Marshal"
+
+# logging
+github "SwiftyBeaver/SwiftyBeaver"
+
+github "SnapKit/SnapKit" ~> 3.2.0
+
+
+# promisekit
+github "mxcl/PromiseKit" ~> 4.0
+github "PromiseKit/Alamofire-" ~> 1.0
+github "PromiseKit/UIKit" ~> 1.0
+github "PromiseKit/AssetsLibrary" ~> 1.0
+github "PromiseKit/CoreLocation" ~> 1.0
+

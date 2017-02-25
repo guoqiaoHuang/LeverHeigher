@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EAC0F469CB2398FDE2D7E4D /* libPods-LeverHeigher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C18A8F81937320B2D19D54A8 /* libPods-LeverHeigher.a */; };
+		DE35CB1C1E56990A00198A63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35CB1B1E56990A00198A63 /* main.m */; };
+		DE35CB1F1E56990A00198A63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35CB1E1E56990A00198A63 /* AppDelegate.m */; };
+		DE35CB221E56990A00198A63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35CB211E56990A00198A63 /* ViewController.m */; };
+		DE35CB251E56990A00198A63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE35CB231E56990A00198A63 /* Main.storyboard */; };
+		DE35CB271E56990A00198A63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE35CB261E56990A00198A63 /* Assets.xcassets */; };
+		DE35CB2A1E56990A00198A63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE35CB281E56990A00198A63 /* LaunchScreen.storyboard */; };
+		DE35CB351E56990A00198A63 /* LeverHeigherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35CB341E56990A00198A63 /* LeverHeigherTests.m */; };
+		DE35CB401E56990A00198A63 /* LeverHeigherUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35CB3F1E56990A00198A63 /* LeverHeigherUITests.m */; };
+		DE35CB541E56DC1C00198A63 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = DE35CB531E56DC1C00198A63 /* Cartfile */; };
+		DE4483A81E5C3A8800F503AA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE4483A71E5C3A8800F503AA /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE35CB311E56990A00198A63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE35CB0F1E56990A00198A63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE35CB161E56990A00198A63;
+			remoteInfo = LeverHeigher;
+		};
+		DE35CB3C1E56990A00198A63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE35CB0F1E56990A00198A63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE35CB161E56990A00198A63;
+			remoteInfo = LeverHeigher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05BA1836547060E0928C2574 /* Pods-LeverHeigher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeverHeigher.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeverHeigher/Pods-LeverHeigher.debug.xcconfig"; sourceTree = "<group>"; };
+		C18A8F81937320B2D19D54A8 /* libPods-LeverHeigher.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LeverHeigher.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE04F4981E570006007C90F4 /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFNetworking.a; path = "Pods/../build/Debug-iphoneos/AFNetworking/libAFNetworking.a"; sourceTree = "<group>"; };
+		DE04F49A1E57000A007C90F4 /* libMasonry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMasonry.a; path = "Pods/../build/Debug-iphoneos/Masonry/libMasonry.a"; sourceTree = "<group>"; };
+		DE04F49C1E57008D007C90F4 /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFNetworking.a; path = "Pods/../build/Debug-iphoneos/AFNetworking/libAFNetworking.a"; sourceTree = "<group>"; };
+		DE35CB171E56990A00198A63 /* LeverHeigher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeverHeigher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE35CB1B1E56990A00198A63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE35CB1D1E56990A00198A63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE35CB1E1E56990A00198A63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE35CB201E56990A00198A63 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DE35CB211E56990A00198A63 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DE35CB241E56990A00198A63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE35CB261E56990A00198A63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE35CB291E56990A00198A63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE35CB2B1E56990A00198A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE35CB301E56990A00198A63 /* LeverHeigherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeverHeigherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE35CB341E56990A00198A63 /* LeverHeigherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeverHeigherTests.m; sourceTree = "<group>"; };
+		DE35CB361E56990A00198A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE35CB3B1E56990A00198A63 /* LeverHeigherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeverHeigherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE35CB3F1E56990A00198A63 /* LeverHeigherUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeverHeigherUITests.m; sourceTree = "<group>"; };
+		DE35CB411E56990A00198A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE35CB531E56DC1C00198A63 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		DE4483A71E5C3A8800F503AA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F2AEC81BDF03E23F236B3C7C /* Pods-LeverHeigher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeverHeigher.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeverHeigher/Pods-LeverHeigher.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE35CB141E56990A00198A63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE4483A81E5C3A8800F503AA /* CoreLocation.framework in Frameworks */,
+				1EAC0F469CB2398FDE2D7E4D /* libPods-LeverHeigher.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE35CB2D1E56990A00198A63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE35CB381E56990A00198A63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54013EB7624D425D5B89098F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05BA1836547060E0928C2574 /* Pods-LeverHeigher.debug.xcconfig */,
+				F2AEC81BDF03E23F236B3C7C /* Pods-LeverHeigher.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DE35CB0E1E56990A00198A63 = {
+			isa = PBXGroup;
+			children = (
+				DE35CB531E56DC1C00198A63 /* Cartfile */,
+				DE35CB191E56990A00198A63 /* LeverHeigher */,
+				DE35CB331E56990A00198A63 /* LeverHeigherTests */,
+				DE35CB3E1E56990A00198A63 /* LeverHeigherUITests */,
+				DE35CB181E56990A00198A63 /* Products */,
+				54013EB7624D425D5B89098F /* Pods */,
+				FC9304234B7C94DFD4C0555A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DE35CB181E56990A00198A63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE35CB171E56990A00198A63 /* LeverHeigher.app */,
+				DE35CB301E56990A00198A63 /* LeverHeigherTests.xctest */,
+				DE35CB3B1E56990A00198A63 /* LeverHeigherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE35CB191E56990A00198A63 /* LeverHeigher */ = {
+			isa = PBXGroup;
+			children = (
+				DE35CB1D1E56990A00198A63 /* AppDelegate.h */,
+				DE35CB1E1E56990A00198A63 /* AppDelegate.m */,
+				DE35CB201E56990A00198A63 /* ViewController.h */,
+				DE35CB211E56990A00198A63 /* ViewController.m */,
+				DE35CB231E56990A00198A63 /* Main.storyboard */,
+				DE35CB261E56990A00198A63 /* Assets.xcassets */,
+				DE35CB281E56990A00198A63 /* LaunchScreen.storyboard */,
+				DE35CB2B1E56990A00198A63 /* Info.plist */,
+				DE35CB1A1E56990A00198A63 /* Supporting Files */,
+			);
+			path = LeverHeigher;
+			sourceTree = "<group>";
+		};
+		DE35CB1A1E56990A00198A63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE35CB1B1E56990A00198A63 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE35CB331E56990A00198A63 /* LeverHeigherTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE35CB341E56990A00198A63 /* LeverHeigherTests.m */,
+				DE35CB361E56990A00198A63 /* Info.plist */,
+			);
+			path = LeverHeigherTests;
+			sourceTree = "<group>";
+		};
+		DE35CB3E1E56990A00198A63 /* LeverHeigherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE35CB3F1E56990A00198A63 /* LeverHeigherUITests.m */,
+				DE35CB411E56990A00198A63 /* Info.plist */,
+			);
+			path = LeverHeigherUITests;
+			sourceTree = "<group>";
+		};
+		FC9304234B7C94DFD4C0555A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE4483A71E5C3A8800F503AA /* CoreLocation.framework */,
+				DE04F49C1E57008D007C90F4 /* libAFNetworking.a */,
+				DE04F49A1E57000A007C90F4 /* libMasonry.a */,
+				DE04F4981E570006007C90F4 /* libAFNetworking.a */,
+				C18A8F81937320B2D19D54A8 /* libPods-LeverHeigher.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE35CB161E56990A00198A63 /* LeverHeigher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE35CB441E56990A00198A63 /* Build configuration list for PBXNativeTarget "LeverHeigher" */;
+			buildPhases = (
+				006AEBF2A70CF4F93AE21920 /* [CP] Check Pods Manifest.lock */,
+				DE35CB131E56990A00198A63 /* Sources */,
+				DE35CB141E56990A00198A63 /* Frameworks */,
+				DE35CB151E56990A00198A63 /* Resources */,
+				4E26A918C6E5706E97F5160C /* [CP] Embed Pods Frameworks */,
+				72378CD2EA04582D7D5BCE66 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeverHeigher;
+			productName = LeverHeigher;
+			productReference = DE35CB171E56990A00198A63 /* LeverHeigher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE35CB2F1E56990A00198A63 /* LeverHeigherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE35CB471E56990A00198A63 /* Build configuration list for PBXNativeTarget "LeverHeigherTests" */;
+			buildPhases = (
+				DE35CB2C1E56990A00198A63 /* Sources */,
+				DE35CB2D1E56990A00198A63 /* Frameworks */,
+				DE35CB2E1E56990A00198A63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE35CB321E56990A00198A63 /* PBXTargetDependency */,
+			);
+			name = LeverHeigherTests;
+			productName = LeverHeigherTests;
+			productReference = DE35CB301E56990A00198A63 /* LeverHeigherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE35CB3A1E56990A00198A63 /* LeverHeigherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE35CB4A1E56990A00198A63 /* Build configuration list for PBXNativeTarget "LeverHeigherUITests" */;
+			buildPhases = (
+				DE35CB371E56990A00198A63 /* Sources */,
+				DE35CB381E56990A00198A63 /* Frameworks */,
+				DE35CB391E56990A00198A63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE35CB3D1E56990A00198A63 /* PBXTargetDependency */,
+			);
+			name = LeverHeigherUITests;
+			productName = LeverHeigherUITests;
+			productReference = DE35CB3B1E56990A00198A63 /* LeverHeigherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE35CB0F1E56990A00198A63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = pangpangCompany;
+				TargetAttributes = {
+					DE35CB161E56990A00198A63 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AK5L3423C8;
+						ProvisioningStyle = Automatic;
+					};
+					DE35CB2F1E56990A00198A63 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AK5L3423C8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DE35CB161E56990A00198A63;
+					};
+					DE35CB3A1E56990A00198A63 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AK5L3423C8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DE35CB161E56990A00198A63;
+					};
+				};
+			};
+			buildConfigurationList = DE35CB121E56990A00198A63 /* Build configuration list for PBXProject "LeverHeigher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE35CB0E1E56990A00198A63;
+			productRefGroup = DE35CB181E56990A00198A63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE35CB161E56990A00198A63 /* LeverHeigher */,
+				DE35CB2F1E56990A00198A63 /* LeverHeigherTests */,
+				DE35CB3A1E56990A00198A63 /* LeverHeigherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE35CB151E56990A00198A63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE35CB541E56DC1C00198A63 /* Cartfile in Resources */,
+				DE35CB2A1E56990A00198A63 /* LaunchScreen.storyboard in Resources */,
+				DE35CB271E56990A00198A63 /* Assets.xcassets in Resources */,
+				DE35CB251E56990A00198A63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE35CB2E1E56990A00198A63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE35CB391E56990A00198A63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		006AEBF2A70CF4F93AE21920 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4E26A918C6E5706E97F5160C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeverHeigher/Pods-LeverHeigher-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72378CD2EA04582D7D5BCE66 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeverHeigher/Pods-LeverHeigher-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE35CB131E56990A00198A63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE35CB221E56990A00198A63 /* ViewController.m in Sources */,
+				DE35CB1F1E56990A00198A63 /* AppDelegate.m in Sources */,
+				DE35CB1C1E56990A00198A63 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE35CB2C1E56990A00198A63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE35CB351E56990A00198A63 /* LeverHeigherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE35CB371E56990A00198A63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE35CB401E56990A00198A63 /* LeverHeigherUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE35CB321E56990A00198A63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE35CB161E56990A00198A63 /* LeverHeigher */;
+			targetProxy = DE35CB311E56990A00198A63 /* PBXContainerItemProxy */;
+		};
+		DE35CB3D1E56990A00198A63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE35CB161E56990A00198A63 /* LeverHeigher */;
+			targetProxy = DE35CB3C1E56990A00198A63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE35CB231E56990A00198A63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE35CB241E56990A00198A63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE35CB281E56990A00198A63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE35CB291E56990A00198A63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE35CB421E56990A00198A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}";
+			};
+			name = Debug;
+		};
+		DE35CB431E56990A00198A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE35CB451E56990A00198A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05BA1836547060E0928C2574 /* Pods-LeverHeigher.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AK5L3423C8;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = LeverHeigher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AFNetworking",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Masonry",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = study.LeverHeigher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}";
+			};
+			name = Debug;
+		};
+		DE35CB461E56990A00198A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2AEC81BDF03E23F236B3C7C /* Pods-LeverHeigher.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AK5L3423C8;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = LeverHeigher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AFNetworking",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Masonry",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = study.LeverHeigher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}";
+			};
+			name = Release;
+		};
+		DE35CB481E56990A00198A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AK5L3423C8;
+				INFOPLIST_FILE = LeverHeigherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = study.LeverHeigherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeverHeigher.app/LeverHeigher";
+			};
+			name = Debug;
+		};
+		DE35CB491E56990A00198A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AK5L3423C8;
+				INFOPLIST_FILE = LeverHeigherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = study.LeverHeigherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeverHeigher.app/LeverHeigher";
+			};
+			name = Release;
+		};
+		DE35CB4B1E56990A00198A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = AK5L3423C8;
+				INFOPLIST_FILE = LeverHeigherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = study.LeverHeigherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LeverHeigher;
+			};
+			name = Debug;
+		};
+		DE35CB4C1E56990A00198A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = AK5L3423C8;
+				INFOPLIST_FILE = LeverHeigherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = study.LeverHeigherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LeverHeigher;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE35CB121E56990A00198A63 /* Build configuration list for PBXProject "LeverHeigher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE35CB421E56990A00198A63 /* Debug */,
+				DE35CB431E56990A00198A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE35CB441E56990A00198A63 /* Build configuration list for PBXNativeTarget "LeverHeigher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE35CB451E56990A00198A63 /* Debug */,
+				DE35CB461E56990A00198A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE35CB471E56990A00198A63 /* Build configuration list for PBXNativeTarget "LeverHeigherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE35CB481E56990A00198A63 /* Debug */,
+				DE35CB491E56990A00198A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE35CB4A1E56990A00198A63 /* Build configuration list for PBXNativeTarget "LeverHeigherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE35CB4B1E56990A00198A63 /* Debug */,
+				DE35CB4C1E56990A00198A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE35CB0F1E56990A00198A63 /* Project object */;
+}
