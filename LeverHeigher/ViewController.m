@@ -23,6 +23,7 @@
     manager.delegate=self;
         [manager requestWhenInUseAuthorization];
     [manager startUpdatingLocation];
+    
 
 }
 

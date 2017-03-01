@@ -18,6 +18,8 @@
 		DE35CB401E56990A00198A63 /* LeverHeigherUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35CB3F1E56990A00198A63 /* LeverHeigherUITests.m */; };
 		DE35CB541E56DC1C00198A63 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = DE35CB531E56DC1C00198A63 /* Cartfile */; };
 		DE4483A81E5C3A8800F503AA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE4483A71E5C3A8800F503AA /* CoreLocation.framework */; };
+		DE53AADA1E66B09400DE3EB3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE35CB2B1E56990A00198A63 /* Info.plist */; };
+		DEB2545E1E6576D9001D0B14 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = DEB2545D1E6576D9001D0B14 /* main.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		DE35CB411E56990A00198A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE35CB531E56DC1C00198A63 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		DE4483A71E5C3A8800F503AA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DEB2545B1E656241001D0B14 /* LeverHeigher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LeverHeigher.entitlements; sourceTree = "<group>"; };
+		DEB2545D1E6576D9001D0B14 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
 		F2AEC81BDF03E23F236B3C7C /* Pods-LeverHeigher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeverHeigher.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeverHeigher/Pods-LeverHeigher.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,6 +107,7 @@
 		DE35CB0E1E56990A00198A63 = {
 			isa = PBXGroup;
 			children = (
+				DEB2545D1E6576D9001D0B14 /* main.js */,
 				DE35CB531E56DC1C00198A63 /* Cartfile */,
 				DE35CB191E56990A00198A63 /* LeverHeigher */,
 				DE35CB331E56990A00198A63 /* LeverHeigherTests */,
@@ -126,6 +131,7 @@
 		DE35CB191E56990A00198A63 /* LeverHeigher */ = {
 			isa = PBXGroup;
 			children = (
+				DEB2545B1E656241001D0B14 /* LeverHeigher.entitlements */,
 				DE35CB1D1E56990A00198A63 /* AppDelegate.h */,
 				DE35CB1E1E56990A00198A63 /* AppDelegate.m */,
 				DE35CB201E56990A00198A63 /* ViewController.h */,
@@ -249,6 +255,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = AK5L3423C8;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					DE35CB2F1E56990A00198A63 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -291,8 +302,10 @@
 			files = (
 				DE35CB541E56DC1C00198A63 /* Cartfile in Resources */,
 				DE35CB2A1E56990A00198A63 /* LaunchScreen.storyboard in Resources */,
+				DE53AADA1E66B09400DE3EB3 /* Info.plist in Resources */,
 				DE35CB271E56990A00198A63 /* Assets.xcassets in Resources */,
 				DE35CB251E56990A00198A63 /* Main.storyboard in Resources */,
+				DEB2545E1E6576D9001D0B14 /* main.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +531,7 @@
 			baseConfigurationReference = 05BA1836547060E0928C2574 /* Pods-LeverHeigher.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LeverHeigher/LeverHeigher.entitlements;
 				DEVELOPMENT_TEAM = AK5L3423C8;
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = LeverHeigher/Info.plist;
@@ -539,6 +553,7 @@
 			baseConfigurationReference = F2AEC81BDF03E23F236B3C7C /* Pods-LeverHeigher.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LeverHeigher/LeverHeigher.entitlements;
 				DEVELOPMENT_TEAM = AK5L3423C8;
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = LeverHeigher/Info.plist;
