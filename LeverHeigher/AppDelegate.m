@@ -17,10 +17,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 //     Override point for customization after application launch.
-    [JPEngine startEngine];
-    [JSPatch startWithAppKey:@"156a11f37488a184"];
-    [JSPatch sync];
-    [JSPatch testScriptInBundle];
+//    [JPEngine startEngine];
+//    [JSPatch startWithAppKey:@"156a11f37488a184"];
+//    [JSPatch sync];
+//    [JSPatch testScriptInBundle];
         return YES;
 }
 

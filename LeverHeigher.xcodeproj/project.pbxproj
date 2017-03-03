@@ -18,7 +18,7 @@
 		DE35CB401E56990A00198A63 /* LeverHeigherUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35CB3F1E56990A00198A63 /* LeverHeigherUITests.m */; };
 		DE35CB541E56DC1C00198A63 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = DE35CB531E56DC1C00198A63 /* Cartfile */; };
 		DE4483A81E5C3A8800F503AA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE4483A71E5C3A8800F503AA /* CoreLocation.framework */; };
-		DE53AADD1E66B30C00DE3EB3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE53AADF1E66B30C00DE3EB3 /* Info.plist */; };
+		DE53AAE31E66C00000DE3EB3 /* RNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE53AAE21E66C00000DE3EB3 /* RNViewController.m */; };
 		DEB2545E1E6576D9001D0B14 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = DEB2545D1E6576D9001D0B14 /* main.js */; };
 /* End PBXBuildFile section */
 
@@ -62,8 +62,9 @@
 		DE35CB411E56990A00198A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE35CB531E56DC1C00198A63 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		DE4483A71E5C3A8800F503AA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		DE53AADE1E66B30C00DE3EB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
 		DE53AAE01E66B31300DE3EB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Info.plist; sourceTree = "<group>"; };
+		DE53AAE11E66C00000DE3EB3 /* RNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNViewController.h; sourceTree = "<group>"; };
+		DE53AAE21E66C00000DE3EB3 /* RNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNViewController.m; sourceTree = "<group>"; };
 		DEB2545B1E656241001D0B14 /* LeverHeigher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LeverHeigher.entitlements; sourceTree = "<group>"; };
 		DEB2545D1E6576D9001D0B14 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
 		F2AEC81BDF03E23F236B3C7C /* Pods-LeverHeigher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeverHeigher.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeverHeigher/Pods-LeverHeigher.release.xcconfig"; sourceTree = "<group>"; };
@@ -109,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				DEB2545D1E6576D9001D0B14 /* main.js */,
+				DE53AADF1E66B30C00DE3EB3 /* Info.plist */,
 				DE35CB531E56DC1C00198A63 /* Cartfile */,
 				DE35CB191E56990A00198A63 /* LeverHeigher */,
 				DE35CB331E56990A00198A63 /* LeverHeigherTests */,
@@ -132,12 +134,13 @@
 		DE35CB191E56990A00198A63 /* LeverHeigher */ = {
 			isa = PBXGroup;
 			children = (
-				DE53AADF1E66B30C00DE3EB3 /* Info.plist */,
 				DEB2545B1E656241001D0B14 /* LeverHeigher.entitlements */,
 				DE35CB1D1E56990A00198A63 /* AppDelegate.h */,
 				DE35CB1E1E56990A00198A63 /* AppDelegate.m */,
 				DE35CB201E56990A00198A63 /* ViewController.h */,
 				DE35CB211E56990A00198A63 /* ViewController.m */,
+				DE53AAE11E66C00000DE3EB3 /* RNViewController.h */,
+				DE53AAE21E66C00000DE3EB3 /* RNViewController.m */,
 				DE35CB231E56990A00198A63 /* Main.storyboard */,
 				DE35CB261E56990A00198A63 /* Assets.xcassets */,
 				DE35CB281E56990A00198A63 /* LaunchScreen.storyboard */,
@@ -303,7 +306,6 @@
 			files = (
 				DE35CB541E56DC1C00198A63 /* Cartfile in Resources */,
 				DE35CB2A1E56990A00198A63 /* LaunchScreen.storyboard in Resources */,
-				DE53AADD1E66B30C00DE3EB3 /* Info.plist in Resources */,
 				DE35CB271E56990A00198A63 /* Assets.xcassets in Resources */,
 				DE35CB251E56990A00198A63 /* Main.storyboard in Resources */,
 				DEB2545E1E6576D9001D0B14 /* main.js in Resources */,
@@ -379,6 +381,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE53AAE31E66C00000DE3EB3 /* RNViewController.m in Sources */,
 				DE35CB221E56990A00198A63 /* ViewController.m in Sources */,
 				DE35CB1F1E56990A00198A63 /* AppDelegate.m in Sources */,
 				DE35CB1C1E56990A00198A63 /* main.m in Sources */,
@@ -436,10 +439,10 @@
 		DE53AADF1E66B30C00DE3EB3 /* Info.plist */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DE53AADE1E66B30C00DE3EB3 /* Base */,
 				DE53AAE01E66B31300DE3EB3 /* en */,
 			);
 			name = Info.plist;
+			path = LeverHeigher;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
